@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20sp"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lgallogosmall">
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/h1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="60dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                android:background="@drawable/luserprofilelogo" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="275dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="30dp"
+                android:text="My Profile"
+                android:layout_toRightOf="@+id/img1"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imgg1"
+                android:layout_width="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/lgraterthan"
+                android:layout_toRightOf="@+id/t1"
+                android:layout_height="145dp"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/card1"
+        android:layout_height="60dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <ImageView
+                android:id="@+id/img2"
+                android:background="@drawable/laboutus"
+                android:layout_width="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="275dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20sp"
+                android:layout_toRightOf="@+id/img2"
+                android:text="About Us"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imgg2"
+                android:layout_width="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/lgraterthan"
+                android:layout_toRightOf="@+id/t2"
+                android:layout_height="145dp"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/card2"
+        android:layout_height="60dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:background="@drawable/ltermsandcondition"
+                android:layout_width="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="275dp"
+                android:layout_height="match_parent"
+                android:text="Terms  and  Conditions"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20sp"
+                android:layout_toRightOf="@+id/img3"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imgg3"
+                android:layout_width="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/lgraterthan"
+                android:layout_toRightOf="@+id/t3"
+                android:layout_height="145dp"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/card3"
+        android:layout_height="60dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:background="@drawable/lshareapp"
+                android:layout_width="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="275dp"
+                android:layout_height="match_parent"
+                android:text="Share App"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20sp"
+                android:layout_toRightOf="@+id/img4"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imgg4"
+                android:layout_width="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/lgraterthan"
+                android:layout_toRightOf="@+id/t4"
+                android:layout_height="145dp"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card5"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/card4"
+        android:layout_height="60dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <ImageView
+                android:id="@+id/img5"
+                android:background="@drawable/ljoinwithus"
+                android:layout_width="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp"
+                />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="275dp"
+                android:layout_height="match_parent"
+                android:text="Join with Us"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/img5"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imgg5"
+                android:layout_width="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/lgraterthan"
+                android:layout_toRightOf="@+id/t5"
+                android:layout_height="145dp"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

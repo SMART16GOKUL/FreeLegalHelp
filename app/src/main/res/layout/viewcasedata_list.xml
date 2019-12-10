@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="S.N">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:textStyle="bold"
+                    android:text="S.N"/>
+
+
+                <TextView
+                    android:id="@+id/dt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_toRightOf="@+id/t1"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity = "center_vertical|left|start"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/r1"
+                android:layout_height="30dp"
+                android:text="S.N">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:textStyle="bold"
+                    android:text="CASE TYPE"
+                    />
+
+
+                <TextView
+                    android:id="@+id/dt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_toRightOf="@+id/t2"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity = "center_vertical|left|start"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/r3"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/r2"
+                android:layout_height="wrap_content"
+                android:text="S.N">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:textStyle="bold"
+                    android:text="CASE DESCRIPTION"
+                    />
+
+
+                <TextView
+                    android:id="@+id/dt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/t3"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity = "center_vertical|left|start"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/r4"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/r3"
+                android:layout_height="30dp"
+                android:text="S.N">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:textStyle="bold"
+                    android:text="COMPLIANT FOR"
+                    />
+
+
+                <TextView
+                    android:id="@+id/dt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_toRightOf="@+id/t4"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity = "center_vertical|left|start"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/r5"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/r4"
+                android:layout_height="30dp"
+                android:text="S.N">
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:textStyle="bold"
+                    android:text="DATE"
+                    />
+
+
+                <TextView
+                    android:id="@+id/dt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_toRightOf="@+id/t5"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity = "center_vertical|left|start"
+                    />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/r6"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/r5"
+                android:layout_height="30dp"
+                android:text="S.N">
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:textStyle="bold"
+                    android:text="STATUS"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_toRightOf="@+id/t6"
+                    android:textSize="14dp"
+                    android:gravity = "center_vertical|left|start"
+                    android:layout_marginLeft="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        >
+                        <TextView
+                            android:id="@+id/dt6"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:gravity = "center_vertical|left|start"
+                            android:textSize="14dp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/eimg"
+                            android:layout_width="40dp"
+                            android:src="@drawable/lpencil"
+                            android:layout_toRightOf="@+id/dt6"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="20dp"/>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

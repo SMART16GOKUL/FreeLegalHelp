@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="540dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/h1"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20sp"
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/luserprofile">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/h2"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/h1"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginTop="5dp"
+                    >
+                    <EditText
+                        android:id="@+id/tt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Name"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c1"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Email"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c2"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Password"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c3"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <Spinner
+                        android:id="@+id/tt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        >
+                    </Spinner>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c4"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <TextView
+                        android:id="@+id/tt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20dp"
+                        android:gravity = "center_vertical|left|start"
+                        android:background="@android:color/transparent"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c5"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Phone"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c6"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Alternate Number"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c7"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Streetname"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c8"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Landmark"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c10"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c9"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <TextView
+                        android:id="@+id/tt10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity = "center_vertical|left|start"
+                        android:background="@android:color/transparent"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c11"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c10"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <Spinner
+                        android:id="@+id/tt11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        >
+                    </Spinner>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c12"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/c11"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20sp"
+                    >
+                    <EditText
+                        android:id="@+id/tt12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Pincode"
+                        android:background="@android:color/transparent"
+                        >
+                    </EditText>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/s1"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/in2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonback"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:text="Back"
+            android:gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/in2"
+            android:layout_toRightOf="@+id/b1"
+            android:background="@drawable/buttonback"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text=" Update"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

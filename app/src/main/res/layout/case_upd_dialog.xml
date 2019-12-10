@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
+    android:background="#FFFFFF"
+    android:layout_height="500dp">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <Spinner
+                    android:id="@+id/s1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/c1"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <Spinner
+                    android:id="@+id/s2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c3"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/c2"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity = "center_vertical|left|start"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/c3"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:hint="  Type Complaint Description here"
+                    android:gravity="top"
+                    android:background="@android:color/transparent"
+                    />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/r1">
+
+        <Button
+            android:id="@+id/bc"
+            android:layout_width="150dp"
+            android:layout_marginLeft="30dp"
+            android:text="CANCLE"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonback"
+
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/bsu"
+            android:layout_width="150dp"
+            android:layout_marginLeft="20dp"
+            android:text="SUBMIT"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonback"
+            android:layout_toRightOf="@+id/bc"
+            android:layout_height="match_parent"/>
+
+
+
+    </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

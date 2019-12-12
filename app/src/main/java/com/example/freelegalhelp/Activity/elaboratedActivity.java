@@ -77,7 +77,7 @@ public class elaboratedActivity extends AppCompatActivity {
 
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "http://eventinvention.in/paynow.php";
+                String shareBody = "http://m8itsolutions.com/legalhelp/about-us.php";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(sharingIntent, "Share via"));

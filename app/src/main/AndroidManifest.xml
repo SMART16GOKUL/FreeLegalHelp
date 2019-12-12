@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activity.elaboratedprofile.JoindWithUs"></activity>
+        <activity android:name=".Activity.elaboratedprofile.JoindWithUs" />
         <activity android:name=".Activity.elaboratedprofile.TermsAndCond" />
         <activity android:name=".Activity.elaboratedprofile.AboutUs" />
         <activity android:name=".Activity.elaboratedprofile.Pmyprofile" />
@@ -24,7 +24,9 @@
         <activity android:name=".Activity.elaboratedActivity" />
         <activity android:name=".Activity.HomePageActivity" />
         <activity android:name=".loginsignup.Signup" />
-        <activity android:name=".loginsignup.LoginPage">
+        <activity android:name=".loginsignup.LoginPage" />
+
+        <activity android:name=".Activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

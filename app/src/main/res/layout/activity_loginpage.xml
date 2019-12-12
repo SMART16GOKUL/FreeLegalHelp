@@ -7,8 +7,6 @@
     android:gravity="center"
     android:background="#DFE1E2">
 
-
-
     <androidx.cardview.widget.CardView
         android:id="@+id/hcard"
         android:layout_width="match_parent"

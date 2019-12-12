@@ -66,16 +66,16 @@ public class LoginPage extends AppCompatActivity {
 
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
-        String name1 = sharedpreferences.getString("uemailKey",null);
-        assert name1 != null;
-        if(name1 != null){
-            Intent intent = new Intent(LoginPage.this, HomePageActivity.class);
-            startActivity(intent);
-        }
-
-        else {
-
-        }
+//        String name1 = sharedpreferences.getString("uemailKey",null);
+//        assert name1 != null;
+//        if(name1 != null){
+//            Intent intent = new Intent(LoginPage.this, HomePageActivity.class);
+//            startActivity(intent);
+//        }
+//
+//        else {
+//
+//        }
 
         bsignup.setOnClickListener(new View.OnClickListener() {
             @Override
